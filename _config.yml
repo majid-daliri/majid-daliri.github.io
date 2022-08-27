@@ -209,16 +209,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      read_time: false
-      author_profile: true
-      share: false
-      comments: false
   # _articles
   - scope:
       path: ""

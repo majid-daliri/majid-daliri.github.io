@@ -8,4 +8,4 @@ date: 2022-06-01
 location: "San Diego, CA, USA (online presentation)"
 ---
 
-[Link to the presentation](https://github.com/majid-daliri/majid-daliri.github.io/blob/main/resources/PLDI_Slides.pdf)
+[Link to the presentation](https://raw.githubusercontent.com/majid-daliri/majid-daliri.github.io/main/resources/PLDI_Slides.pdf)

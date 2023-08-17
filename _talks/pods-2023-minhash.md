@@ -8,4 +8,4 @@ date: 2023-06-01
 location: "Seattle, WA, USA"
 ---
 
-[Link to the poster](https://github.com/majid-daliri/majid-daliri.github.io/blob/main/resources/PODS_Poster.pdf)
+[Link to the poster](https://raw.githubusercontent.com/majid-daliri/majid-daliri.github.io/main/resources/PODS_Poster.pdf)

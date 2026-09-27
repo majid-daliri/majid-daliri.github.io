@@ -1,17 +1,21 @@
 ---
 layout: archive
 title: "CV"
+published: false
 permalink: /cv/
-author_profile: true
+author_profile: false
+pdf: /cv.pdf
 redirect_from:
   - /wordpress/cv/
 ---
-
-
-{% include base_path %}
-{% capture written_label %}'None'{% endcapture %}
-
-You can <u><a href="https://github.com/majid-daliri/majid-daliri.github.io/raw/main/cv.pdf">download it here.</a></u>
-<br/>
-
-<!-- <embed src="https://emgithub.com/embed-v2.js?target=https%3A%2F%2Fgithub.com%2Fmajid-daliri%2Fmajid-daliri.github.io%2Fblob%2Fmain%2Fcv.pdf&style=default&type=code&showBorder=on&showLineNumbers=on&showFileMeta=on&showFullPath=on&showCopy=on" type="application/pdf" width="100%" /> -->
+{% for preview in site.data.cv_preview.pages %}
+  <figure class="cv-preview">
+    <a href="{{ page.pdf | relative_url }}#page={{ forloop.index }}" target="_blank" rel="noopener">
+      <img src="{{ preview.image | relative_url }}"
+           alt="{{ site.name | escape }}'s CV, page {{ forloop.index }} of {{ forloop.length }}. Open the original PDF."
+           width="{{ preview.width }}" height="{{ preview.height }}"
+           loading="{% if forloop.first %}eager{% else %}lazy{% endif %}">
+    </a>
+    <figcaption>Page {{ forloop.index }} of {{ forloop.length }}</figcaption>
+  </figure>
+{% endfor %}

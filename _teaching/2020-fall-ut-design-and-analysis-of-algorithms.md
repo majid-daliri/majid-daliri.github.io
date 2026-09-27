@@ -1,11 +1,13 @@
 ---
-title: "UT Design and Analysis of Algorithms"
+title: "Design and Analysis of Algorithms"
 collection: teaching
-teaching_type: "Course"
+role: "Teaching Assistant"
 permalink: /teaching/ut-design-and-analysis-of-algorithms/
 institution: "University of Tehran"
 date: 2020-09-01
-excerpt: "<i>Course, Teaching Assistant</i><br/>A comprehensive overview of algorithm design and analysis."
+term: "Fall 2020"
+instructor: "H. Mahini"
+excerpt: "Teaching Assistant for Design and Analysis of Algorithms at the University of Tehran, Fall 2020."
 ---
 
-Working as a Teaching Assistant under H. Mahini, I provided students with additional resources, conducted supplementary sessions to explain complex topics, and evaluated assignments ensuring all students were on par with the curriculum.
+I provided supplementary teaching sessions and learning resources, and graded assignments in algorithm design and analysis.

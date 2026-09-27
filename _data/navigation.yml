@@ -9,8 +9,9 @@ main:
   - title: "Talks"
     url: /talks/
 
-  - title: "CV"
-    url: /cv/
+  # Temporarily disabled alongside the CV page and its files.
+  # - title: "CV"
+  #   url: /cv/
 
   - title: "Contact"
     url: /contact/

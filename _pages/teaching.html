@@ -2,11 +2,24 @@
 layout: archive
 title: "Teaching"
 permalink: /teaching/
-author_profile: true
+author_profile: false
+description: "Teaching in algorithms and machine learning at NYU and the University of Tehran."
 ---
 
-{% include base_path %}
-
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="teaching-list">
+  {% assign dated_courses = site.teaching | where_exp: 'course', 'course.undated != true' | sort: 'date' | reverse %}
+  {% assign undated_courses = site.teaching | where: 'undated', true %}
+  {% assign courses = dated_courses | concat: undated_courses %}
+  {% for course in courses %}
+    <article class="teaching-entry">
+      <p class="teaching-term">{{ course.term | default: 'Additional teaching' }}</p>
+      <div>
+        <h2><a href="{{ course.url | relative_url }}">{{ course.title | escape }}</a></h2>
+        {% include teaching-meta.html course=course %}
+        {% if course.course_url %}
+          <a class="teaching-link" href="{{ course.course_url | escape }}" target="_blank" rel="noopener">{{ course.course_link_label | default: 'Course website' }}<span class="sr-only"> for {{ course.title | escape }}{% if course.term %}, {{ course.term }}{% endif %}</span> <span aria-hidden="true">↗</span></a>
+        {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+</div>

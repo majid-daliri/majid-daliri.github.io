@@ -1,11 +1,16 @@
 ---
-title: "CSCI-UA 310 Basic Algorithms"
+title: "Basic Algorithms"
 collection: teaching
-teaching_type: "Undergraduate course"
+course_code: "CSCI-UA 310"
+role: "Section Leader"
 permalink: /teaching/csci-ua-310-basic-algorithms/
 institution: "NYU"
 date: 2023-01-01
-excerpt: "<i>Undergraduate course, Section Leader</i><br/>Basic overview of algorithmic principles."
+term: "Spring 2023"
+instructor: "Vladimir Podolskii"
+course_url: "https://cs.nyu.edu/dynamic/courses/schedule/?level=UA&semester=spring_2023"
+course_link_label: "NYU course listing"
+excerpt: "Section Leader for Basic Algorithms at NYU, Spring 2023, taught by Vladimir Podolskii."
 ---
 
-As a Section Leader for CSCI-UA 310, I played a pivotal role in helping students grasp foundational concepts in algorithms. I held weekly sessions and provided hands-on guidance for all coursework and projects. [Course Link](https://www.coursicle.com/nyu/courses/CSCIUA/310/).
+I led weekly recitations and helped students work through foundational algorithmic concepts and coursework.

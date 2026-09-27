@@ -1,0 +1,674 @@
+{
+  "aaai-2025-qjl": {
+    "source": "/resources/QJL_Poster.pdf",
+    "source_sha256": "9dffbb2c7e6cd58b5b85c7a136587ee5e2b5b711df8e77ac36a6d554940b9b92",
+    "format": "PDF",
+    "kind": "poster",
+    "thumbnail": "/assets/talks/aaai-2025-qjl/thumbnail.webp",
+    "pages": [
+      {
+        "image": "/assets/talks/aaai-2025-qjl/page-1.webp",
+        "width": 3200,
+        "height": 2134
+      }
+    ]
+  },
+  "iclr-2026-turboquant": {
+    "source": "/resources/TurboQuant_Poster.pdf",
+    "source_sha256": "2e6c4e9b49c376c337a6604c8aa56c7ee50c1d1372b5c9a02a2dbe0a820082b2",
+    "format": "PDF",
+    "kind": "poster",
+    "thumbnail": "/assets/talks/iclr-2026-turboquant/thumbnail.webp",
+    "pages": [
+      {
+        "image": "/assets/talks/iclr-2026-turboquant/page-1.webp",
+        "width": 3200,
+        "height": 1557
+      }
+    ]
+  },
+  "icml-2023-transformers": {
+    "source": "/resources/ICML_Poster.png",
+    "source_sha256": "8804dfef535230e6fba92d68d5571d1b396c43269fbc02f65f3dfaf3c08c5781",
+    "format": "PNG",
+    "kind": "poster",
+    "thumbnail": "/assets/talks/icml-2023-transformers/thumbnail.webp",
+    "pages": [
+      {
+        "image": "/assets/talks/icml-2023-transformers/page-1.webp",
+        "width": 3200,
+        "height": 2133
+      }
+    ]
+  },
+  "pldi-2022-data-placement": {
+    "source": "/resources/PLDI_Slides.pdf",
+    "source_sha256": "ce4fb7e3457acc04b28e3605e823659e4f65b2d52bb08102aa7d7dfb81b7c7cb",
+    "format": "PDF",
+    "kind": "slides",
+    "thumbnail": "/assets/talks/pldi-2022-data-placement/thumbnail.webp",
+    "pages": [
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-1.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-2.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-3.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-4.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-5.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-6.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-7.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-8.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-9.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-10.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-11.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-12.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-13.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-14.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-15.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-16.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-17.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-18.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-19.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-20.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-21.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-22.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-23.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-24.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-25.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-26.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-27.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-28.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-29.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-30.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-31.webp",
+        "width": 1800,
+        "height": 1351
+      },
+      {
+        "image": "/assets/talks/pldi-2022-data-placement/page-32.webp",
+        "width": 1800,
+        "height": 1351
+      }
+    ]
+  },
+  "pods-2023-minhash": {
+    "source": "/resources/PODS_Poster.pdf",
+    "source_sha256": "3d44c99909eed93a00e7aadc3a42191c71199e01929200fe6e0215f4c2aa7391",
+    "format": "PDF",
+    "kind": "poster",
+    "thumbnail": "/assets/talks/pods-2023-minhash/thumbnail.webp",
+    "pages": [
+      {
+        "image": "/assets/talks/pods-2023-minhash/page-1.webp",
+        "width": 3200,
+        "height": 1920
+      }
+    ]
+  },
+  "sosa-2024-prioritysampling": {
+    "source": "/resources/SOSA_Presentation.pdf",
+    "source_sha256": "cf290d599134671a5f768c383e235896044fdd8e75a8c12ae94f72f7551a173b",
+    "format": "PDF",
+    "kind": "slides",
+    "thumbnail": "/assets/talks/sosa-2024-prioritysampling/thumbnail.webp",
+    "pages": [
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-1.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-2.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-3.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-4.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-5.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-6.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-7.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-8.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-9.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-10.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-11.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-12.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-13.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-14.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-15.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-16.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-17.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-18.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-19.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-20.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-21.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-22.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-23.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-24.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-25.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-26.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-27.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-28.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-29.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-30.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-31.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-32.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-33.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-34.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-35.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-36.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-37.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-38.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-39.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-40.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-41.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-42.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-43.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-44.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-45.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-46.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-47.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-48.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-49.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-50.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-51.webp",
+        "width": 1800,
+        "height": 1350
+      },
+      {
+        "image": "/assets/talks/sosa-2024-prioritysampling/page-52.webp",
+        "width": 1800,
+        "height": 1350
+      }
+    ]
+  },
+  "qjl-presentation": {
+    "source": "/resources/QJL_Presentation.pdf",
+    "source_sha256": "d941b041ff3954606f08d9c18887dc176bb84cf1826b389de11857482cc85f4c",
+    "format": "PDF",
+    "kind": "slides",
+    "thumbnail": "/assets/talks/qjl-presentation/thumbnail.webp",
+    "pages": [
+      {
+        "image": "/assets/talks/qjl-presentation/page-1.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-2.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-3.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-4.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-5.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-6.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-7.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-8.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-9.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-10.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-11.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-12.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-13.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-14.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-15.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-16.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-17.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-18.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-19.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-20.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-21.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-22.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-23.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-24.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-25.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-presentation/page-26.webp",
+        "width": 1800,
+        "height": 1013
+      }
+    ]
+  },
+  "qjl-lightning": {
+    "source": "/resources/QJL_Lightning_Talk.pdf",
+    "source_sha256": "7bfb95af70eecabe8bd241cc4fb4bf50883e47368a7233aef376bd31401d3f18",
+    "format": "PDF",
+    "kind": "slides",
+    "thumbnail": "/assets/talks/qjl-lightning/thumbnail.webp",
+    "pages": [
+      {
+        "image": "/assets/talks/qjl-lightning/page-1.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-lightning/page-2.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-lightning/page-3.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-lightning/page-4.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-lightning/page-5.webp",
+        "width": 1800,
+        "height": 1013
+      },
+      {
+        "image": "/assets/talks/qjl-lightning/page-6.webp",
+        "width": 1800,
+        "height": 1013
+      }
+    ]
+  }
+}

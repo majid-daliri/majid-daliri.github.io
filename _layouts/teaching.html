@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<main id="main" class="site-content site-content--wide" tabindex="-1">
+  <article class="page teaching-page">
+    <a class="teaching-back" href="{{ '/teaching/' | relative_url }}">← All teaching</a>
+    <header class="teaching-header">
+      {% if page.term %}<p class="teaching-term">{{ page.term }}</p>{% endif %}
+      <h1>{{ page.title | escape }}</h1>
+      {% include teaching-meta.html course=page %}
+    </header>
+    <div class="page__content">{{ content }}</div>
+    {% if page.course_url %}
+      <div class="document-actions">
+        <a href="{{ page.course_url | escape }}" target="_blank" rel="noopener">{{ page.course_link_label | default: 'Course website' }} <span aria-hidden="true">↗</span></a>
+      </div>
+    {% endif %}
+  </article>
+</main>

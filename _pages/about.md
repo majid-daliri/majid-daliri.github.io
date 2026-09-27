@@ -1,8 +1,9 @@
 ---
 permalink: /
 title: "About"
-excerpt: "About me"
+excerpt: "Majid Daliri develops algorithms for more capable and efficient language models. PhD student at NYU and 2025 Apple Scholar in AI/ML."
 author_profile: true
+research_gallery: true
 redirect_from: 
   - "/wordpress/"
   - "/wordpress/index.html"
@@ -10,8 +11,10 @@ redirect_from:
 
 {% include base_path %}
 
-Hello! I'm a third-year PhD student at New York University, affiliated with [Theoretical Computer Science at NYU](https://cs.nyu.edu/theory-group/). I am immensely grateful to be under the guidance of [Christopher Musco](https://www.chrismusco.com/), whose mentorship has been pivotal to my academic growth. Honored to be selected as part of the 2025 cohort of [Apple Scholars in AI/ML PhD Fellowship](https://machinelearning.apple.com/updates/apple-scholars-aiml-2025).
+I'm a PhD student in Computer Science at New York University, advised by [Christopher Musco](https://www.chrismusco.com/) and affiliated with [Theoretical Computer Science at NYU](https://cs.nyu.edu/theory-group/). I'm also a 2025 [Apple Scholar in AI/ML](https://machinelearning.apple.com/updates/apple-scholars-aiml-2025).
 
-My research focuses on developing algorithms with provable guarantees to enhance the efficiency and scalability of machine learning systems, especially in the context of deep learning and generative AI. I design algorithms that are adaptable across diverse machine learning architectures and tasks, ensuring their relevance as technologies advance. My work addresses the economic and environmental sustainability concerns of machine learning systems by improving their computational efficiency without increasing resources.
+I develop algorithms for **more capable and efficient language models**. My work spans pretraining, post-training with reinforcement learning, and inference, as well as the data used to train and evaluate models. I study how models retain and use long contexts, how exploration improves their reasoning, and how to evaluate the correctness of that reasoning.
 
-Before my PhD, I completed a B.S. at the University of Tehran, where I had the privilege to collaborate with [Prof. Goharshady](https://www.goharshady.com/) and [Dr. Zandieh](https://www.linkedin.com/in/amir-zandieh-phd-323a13a9/).
+I combine randomized algorithms and mathematical analysis with empirical work on model architectures, training, and inference. The goal is to turn an understanding of how models work into measurable gains in accuracy and efficiency. I co-developed [TurboQuant](https://en.wikipedia.org/wiki/TurboQuant), a vector quantization algorithm for language model inference and vector search with near-optimal distortion guarantees.
+
+Before my PhD, I earned a B.S. at the University of Tehran, where I worked with [Prof. Goharshady](https://www.goharshady.com/) and [Dr. Zandieh](https://www.linkedin.com/in/amir-zandieh-phd-323a13a9/).

@@ -1,0 +1,4 @@
+<p class="teaching-meta"><strong>{{ include.course.role }}</strong> <span aria-hidden="true">·</span> {{ include.course.institution }}{% if include.course.course_code %} <span aria-hidden="true">·</span> {{ include.course.course_code }}{% endif %}</p>
+{% if include.course.instructor %}
+  <p class="teaching-instructor">Instructor: {% if include.course.instructor_url %}<a href="{{ include.course.instructor_url | escape }}">{{ include.course.instructor }}</a>{% else %}{{ include.course.instructor }}{% endif %}</p>
+{% endif %}

@@ -6,6 +6,5 @@ permalink: /talks/icml-2023-transformers/
 venue: "ICML 2023"
 date: 2023-07-01
 location: "Honolulu, Hawaii, US"
+material: icml-2023-transformers
 ---
-
-[Link to the poster](https://raw.githubusercontent.com/majid-daliri/majid-daliri.github.io/main/resources/ICML_Poster.png)

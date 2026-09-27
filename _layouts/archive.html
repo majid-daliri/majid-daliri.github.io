@@ -1,24 +1,19 @@
 ---
 layout: default
 ---
-
-{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
-  {% include page__hero.html %}
-{% endif %}
-
-{% if page.url != "/" and site.breadcrumbs %}
-  {% unless paginator %}
-    {% include breadcrumbs.html %}
-  {% endunless %}
-{% endif %}
-
-<div id="main" role="main">
+<main id="main" class="site-content{% unless page.author_profile %} site-content--wide{% endunless %}" tabindex="-1">
   {% include sidebar.html %}
-
-  <div class="archive">
-    {% unless page.header.overlay_color or page.header.overlay_image %}
+  <article class="archive">
+    <header class="page__header{% if page.pdf %} page__header--document{% endif %}">
       <h1 class="page__title">{{ page.title }}</h1>
-    {% endunless %}
+      {% if page.pdf %}
+        <div class="document-actions">
+          <a href="{{ page.pdf | relative_url }}" target="_blank" rel="noopener">Open PDF</a>
+          <a class="document-download" href="{{ page.pdf | relative_url }}" download>Download PDF</a>
+        </div>
+      {% endif %}
+    </header>
+    {% if page.research_gallery %}{% include research-gallery.html %}{% endif %}
     {{ content }}
-  </div>
-</div>
+  </article>
+</main>

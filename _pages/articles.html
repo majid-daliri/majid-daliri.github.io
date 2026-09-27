@@ -2,57 +2,47 @@
 layout: archive
 title: "Publications"
 permalink: /articles/
-author_profile: true
-redirect_from: 
+author_profile: false
+research_gallery: true
+publication_filters: true
+redirect_from:
   - /wordpress/academic-papers/
 ---
 
-{% include base_path %}
+<p class="publications-intro">You can also find my articles on <a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</p>
 
-You can also find my articles on <u><a href="https://scholar.google.com/citations?user=MatRqXUAAAAJ&hl=en">my Google Scholar profile</a></u>.
+<div class="publication-index" role="group" aria-label="Filter publications" data-publication-filters hidden>
+  <button type="button" data-publication-filter="all" aria-pressed="true" aria-controls="publications">All</button>
+  {% for section in site.data.publications %}
+    <button type="button" data-publication-filter="{{ section.id }}" aria-pressed="false" aria-controls="publications">{{ section.label }}</button>
+  {% endfor %}
+</div>
+<p class="publication-filter-status" data-publication-status role="status"></p>
 
-<hr>
-
-<h3><a href="https://arxiv.org/abs/2406.03482" target="_blank" style="text-decoration: underline;">QJL: 1-Bit Quantized JL Transform for KV Cache Quantization</a></h3>
-Amir Zandieh, <strong>Majid Daliri</strong>, Insu Han  
-<i>(Under Review)</i>
-<hr>
-
-<h3>Matrix Product Sketching via Coordinated Sampling</h3>
-<strong>Majid Daliri</strong>, Juliana Freire, Danrong Li, Christopher Musco  
-<i>(Under Review)</i>
-<hr>
-
-<h3>HashVec: A Hashing-based Vector Database Indexing for Passage Retrieval</h3>
-<strong>Majid Daliri</strong>, Amir Zandieh  
-<i>(Under Review)</i>
-<hr>
-
-<h3><a href="https://vldb.org/pvldb/volumes/17/paper/Sampling%20Methods%20for%20Inner%20Product%20Sketching" target="_blank" style="text-decoration: underline;">Sampling Methods for Inner Product Sketching</a></h3>
-<strong>Majid Daliri</strong>, Juliana Freire, Christopher Musco, Aécio Santos, Haoxiang Zhang  
-<i>(VLDB) 2024</i>
-<hr>
-
-<h3><a href="https://arxiv.org/abs/2308.05907" target="_blank" style="text-decoration: underline;">Simple Analysis of Priority Sampling</a></h3>
-<strong>Majid Daliri</strong>, Juliana Freire, Christopher Musco, Aécio Santos, Haoxiang Zhang  
-<i>(SOSA) 2024</i>
-<hr>
-
-<h3><a href="http://proceedings.mlr.press/v202/zandieh23a/zandieh23a.pdf" target="_blank" style="text-decoration: underline;">KDEformer: Accelerating Transformers via Kernel Density Estimation</a></h3>
-Amir Zandieh, Insu Han*, <strong>Majid Daliri*</strong>, Amin Karbasi (* equal contribution)  
-<i>(ICML) 2023</i>
-<hr>
-
-<h3><a href="https://dl.acm.org/doi/abs/10.1145/3584372.3588679" target="_blank" style="text-decoration: underline;">Weighted Minwise Hashing Beats Linear Sketching for Inner Product Estimation</a></h3>
-Aline Bessa, <strong>Majid Daliri</strong>, Juliana Freire, Cameron Musco, Christopher Musco, Aécio Santos, Haoxiang Zhang  
-<i>(PODS) 2023</i>
-<hr>
-
-<h3><a href="https://dl.acm.org/doi/abs/10.1145/3519939.3523436" target="_blank" style="text-decoration: underline;">Efficient Approximations for Cache-conscious Data Placement</a></h3>
-Ali Ahmadi, <strong>Majid Daliri</strong>, Amir Kafshdar Goharshady, Andreas Pavlogiannis  
-<i>(PLDI) 2022</i>
-<hr>
-
-<h3><a href="https://drops.dagstuhl.de/opus/volltexte/2022/15823/pdf/LIPIcs-STACS-2022-13.pdf" target="_blank" style="text-decoration: underline;">A 10-Approximation of the $$\frac{\pi}{2}$$-MST</a></h3>
-Ahmad Biniaz, <strong>Majid Daliri</strong>, AmirHossein Moradpour  
-<i>(STACS) 2022</i>
+<div class="publications" id="publications">
+  {% for section in site.data.publications %}
+    <section class="publication-group" id="publications-{{ section.id }}" data-publication-section="{{ section.id }}" aria-labelledby="heading-{{ section.id }}">
+      <h2 id="heading-{{ section.id }}">{{ section.label }}</h2>
+      <div class="publication-list">
+        {% for paper in section.papers %}
+          <article class="publication">
+            {% assign venue_url = paper.venue_url | default: paper.url %}
+            <p class="publication-venue">{% if section.id != 'preprints' and venue_url %}<a href="{{ venue_url }}" target="_blank" rel="noopener">{{ paper.venue }}{% if paper.year %} {{ paper.year }}{% endif %}</a>{% else %}{{ paper.venue }}{% if paper.year %} <span aria-hidden="true">·</span> {{ paper.year }}{% endif %}{% endif %}</p>
+            <h3>{% if paper.url %}<a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.title | escape }}</a>{% else %}{{ paper.title | escape }}{% endif %}</h3>
+            {% include publication-authors.html authors=paper.authors %}
+            {% if paper.note %}<p class="publication-note">{{ paper.note | escape }}</p>{% endif %}
+            {% if paper.url or paper.links %}
+              <ul class="publication-links" aria-label="Resources for {{ paper.title | escape }}">
+                {% if paper.url %}<li><a href="{{ paper.url }}" target="_blank" rel="noopener">{{ paper.link_label | default: 'Proceedings' }}</a></li>{% endif %}
+                {% for link in paper.links %}
+                  {% assign first_character = link.url | slice: 0 %}
+                  <li><a href="{% if first_character == '/' %}{{ link.url | relative_url }}{% else %}{{ link.url }}{% endif %}"{% unless first_character == '/' %} target="_blank" rel="noopener"{% endunless %}>{{ link.label }}</a></li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </article>
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
+</div>

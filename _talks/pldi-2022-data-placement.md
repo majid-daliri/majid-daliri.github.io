@@ -6,6 +6,5 @@ permalink: /talks/pldi-2022-data-placement/
 venue: "PLDI 2022"
 date: 2022-06-01
 location: "San Diego, CA, USA (online presentation)"
+material: pldi-2022-data-placement
 ---
-
-[Link to the presentation](https://raw.githubusercontent.com/majid-daliri/majid-daliri.github.io/main/resources/PLDI_Slides.pdf)

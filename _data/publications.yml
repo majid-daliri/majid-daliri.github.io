@@ -1,0 +1,187 @@
+# Conference links checked against official proceedings and accepted-paper lists.
+# The supplied CV is the source for the NeurIPS 2026 entry; no public paper link yet.
+- label: Preprints
+  id: preprints
+  papers:
+    - title: "Singular Value Perturbation: Unlocking RL Performance via Diverse Latent Reasoning"
+      authors: [Jihwan Shin, Majid Daliri, Vahab Mirrokni, Amir Zandieh, Insu Han]
+      venue: Preprint
+      year: 2026
+      url: https://jihwan1205.github.io/Singular-Value-Perturbation/
+      link_label: Project
+      note: Paper link not yet available.
+
+- label: "2026"
+  id: "2026"
+  papers:
+    - title: "On Worst-Case Guarantees for Graph-Based Nearest-Neighbor Search"
+      authors: [Majid Daliri, Mohammadreza Daneshvaramoli, Purna Dutta, Edo Liberty, Cameron N. Musco, Christopher Musco, Torsten Suel]
+      venue: NeurIPS
+      year: 2026
+      venue_url: https://neurips.cc/Conferences/2026
+      note: Paper link not yet available.
+    - title: "Quantizing Sampling-Based Inner Product Sketches"
+      authors: [Gabriel M. Silva, Aécio Santos, Majid Daliri, Juliana Freire, Christopher Musco]
+      venue: VecDB Workshop @ VLDB
+      year: 2026
+      url: https://openreview.net/forum?id=7FVALJmtXl
+      link_label: Workshop paper
+    - title: "MosaicJoin: Compact Semantic Sketches for Value-Level Join Discovery"
+      authors: [Grace Fan, Eden Wu, Majid Daliri, Juliana Freire]
+      venue: VLDB
+      year: 2026
+      url: https://www.vldb.org/pvldb/vol19/p3745-fan.pdf
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2607.21781
+    - title: "ATLAS: Learning to Optimally Memorize the Context at Test Time"
+      authors: [Ali Behrouz, Zeman Li, Praneeth Kacham, Majid Daliri, Yuan Deng, Peilin Zhong, Meisam Razaviyayn, Vahab Mirrokni]
+      venue: ICML
+      year: 2026
+      url: https://icml.cc/virtual/2026/poster/65037
+      link_label: Conference page
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2505.23735
+    - title: "TurboQuant: Online Vector Quantization with Near-optimal Distortion Rate"
+      authors: [Amir Zandieh, Majid Daliri, Majid Hadian, Vahab Mirrokni]
+      venue: ICLR
+      year: 2026
+      url: https://proceedings.iclr.cc/paper_files/paper/2026/hash/5c802ef38ab6e366c2ea06eee554c088-Abstract-Conference.html
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2504.19874
+        - label: View poster
+          url: /talks/iclr-2026-turboquant/
+
+- label: "2025"
+  id: "2025"
+  papers:
+    - title: "RefGrader: Automated Grading of Mathematical Competition Proofs using Agentic Workflows"
+      authors: [Hamed Mahdavi, Pouria Mahdavinia, Samira Malek, Pegah Mohammadipour, Alireza Hashemi, Majid Daliri, Alireza Farhadi, Amir Khasahmadi, Niloofar Mireshghallah, Vasant Honavar]
+      venue: MATH-AI Workshop @ NeurIPS
+      year: 2025
+      url: https://openreview.net/forum?id=otc9Hcn3hr
+      link_label: Workshop paper
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2510.09021
+        - label: Code
+          url: https://github.com/ref-grader/ref-grader
+    - title: "CombiGraph-Vis: A Curated Multimodal Olympiad Benchmark for Discrete Mathematical Reasoning"
+      authors: [Hamed Mahdavi, Pouria Mahdavinia, Alireza Farhadi, Pegah Mohammadipour, Samira Malek, Majid Daliri, Pedram Mohammadipour, Alireza Hashemi, Amir Khasahmadi, Vasant Honavar]
+      venue: MATH-AI Workshop @ NeurIPS
+      year: 2025
+      url: https://openreview.net/forum?id=x4HkrVVVTi
+      link_label: Workshop paper
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2510.27094
+    - title: "Brains vs. Bytes: Evaluating LLM Proficiency in Olympiad Mathematics"
+      authors: [Hamed Mahdavi, Alireza Hashemi, Majid Daliri, Pegah Mohammadipour, Alireza Farhadi, Samira Malek, Yekta Yazdanifard, Amir Khasahmadi, Vasant Honavar]
+      venue: COLM
+      year: 2025
+      url: https://openreview.net/forum?id=uXR2KsA4L9
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2504.01995
+    - title: "Coupling without Communication and Drafter-Invariant Speculative Decoding"
+      authors: [Majid Daliri, Christopher Musco, Ananda Theertha Suresh]
+      venue: ISIT
+      year: 2025
+      url: https://doi.org/10.1109/ISIT63088.2025.11195663
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2408.07978
+        - label: Code
+          url: https://github.com/majid-daliri/DISD
+    - title: "Unlock the Theory behind Scaling 1-bit Neural Networks"
+      authors: [Majid Daliri, Zhao Song, Chiwun Yang]
+      venue: CPAL
+      year: 2025
+      url: https://proceedings.mlr.press/v280/daliri25a.html
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2411.01663
+    - title: "QJL: 1-Bit Quantized JL Transform for KV Cache Quantization with Zero Overhead"
+      authors: [Amir Zandieh, Majid Daliri, Insu Han]
+      venue: AAAI
+      year: 2025
+      url: https://ojs.aaai.org/index.php/AAAI/article/view/34773
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2406.03482
+        - label: Code
+          url: https://github.com/amirzandieh/QJL
+        - label: View poster
+          url: /talks/aaai-2025-qjl/
+        - label: View slides
+          url: /talks/nyu-theory-day-qjl/
+    - title: "Matrix Product Sketching via Coordinated Sampling"
+      authors: [Majid Daliri, Juliana Freire, Danrong Li, Christopher Musco]
+      venue: ICLR
+      year: 2025
+      url: https://proceedings.iclr.cc/paper_files/paper/2025/hash/e9a32fade47b906de908431991440f7c-Abstract-Conference.html
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2501.17836
+
+- label: "2024"
+  id: "2024"
+  papers:
+    - title: "Sampling Methods for Inner Product Sketching"
+      authors: [Majid Daliri, Juliana Freire, Christopher Musco, Aécio Santos, Haoxiang Zhang]
+      venue: VLDB
+      year: 2024
+      url: https://vldb.org/pvldb/volumes/17/paper/Sampling%20Methods%20for%20Inner%20Product%20Sketching
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2309.16157
+    - title: "Simple Analysis of Priority Sampling"
+      authors: [Majid Daliri, Juliana Freire, Christopher Musco, Aécio Santos, Haoxiang Zhang]
+      venue: SOSA
+      year: 2024
+      url: https://epubs.siam.org/doi/10.1137/1.9781611977936.21
+      links:
+        - label: arXiv
+          url: https://arxiv.org/abs/2308.05907
+        - label: View slides
+          url: /talks/sosa-2024-prioritysampling/
+
+- label: "2023"
+  id: "2023"
+  papers:
+    - title: "KDEformer: Accelerating Transformers via Kernel Density Estimation"
+      authors: [Amir Zandieh, "Insu Han*", "Majid Daliri*", Amin Karbasi]
+      venue: ICML
+      year: 2023
+      url: https://proceedings.mlr.press/v202/zandieh23a.html
+      note: "* Equal contribution"
+      links:
+        - label: View poster
+          url: /talks/icml-2023-transformers/
+    - title: "Weighted Minwise Hashing Beats Linear Sketching for Inner Product Estimation"
+      authors: [Aline Bessa, Majid Daliri, Juliana Freire, Cameron Musco, Christopher Musco, Aécio Santos, Haoxiang Zhang]
+      venue: PODS
+      year: 2023
+      url: https://dl.acm.org/doi/10.1145/3584372.3588679
+      links:
+        - label: View poster
+          url: /talks/pods-2023-minhash/
+
+- label: "2022"
+  id: "2022"
+  papers:
+    - title: "Efficient Approximations for Cache-conscious Data Placement"
+      authors: [Ali Ahmadi, Majid Daliri, Amir Kafshdar Goharshady, Andreas Pavlogiannis]
+      venue: PLDI
+      year: 2022
+      url: https://dl.acm.org/doi/10.1145/3519939.3523436
+      links:
+        - label: View slides
+          url: /talks/pldi-2022-data-placement/
+    - title: "A 10-Approximation of the π/2-MST"
+      authors: [Ahmad Biniaz, Majid Daliri, AmirHossein Moradpour]
+      venue: STACS
+      year: 2022
+      url: https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.STACS.2022.13

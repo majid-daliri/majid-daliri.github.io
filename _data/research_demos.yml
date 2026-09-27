@@ -1,0 +1,36 @@
+- id: quantize
+  paper: TurboQuant
+  label: TurboQuant
+  caption: Vector quantization
+  title: Represent vectors with fewer bits
+  url: https://arxiv.org/abs/2504.19874
+- id: rl
+  paper: Singular Value Perturbation
+  label: Latent reasoning
+  caption: Exploration for RL
+  title: Explore diverse reasoning paths
+  url: https://jihwan1205.github.io/Singular-Value-Perturbation/
+- id: olympiad
+  paper: CombiGraph-Vis · Brains vs. Bytes · RefGrader
+  label: Math olympiads
+  caption: Data & evaluation
+  title: Build and test mathematical reasoning
+  url: /articles/#publications-2025
+- id: search
+  paper: On Worst-Case Guarantees for Graph-Based Nearest-Neighbor Search
+  label: Graph search
+  caption: Nearest neighbors
+  title: Find a neighbor by following the graph
+  url: /articles/#publications-2026
+- id: sketch
+  paper: Sampling Methods for Inner Product Sketching
+  label: Data sketching
+  caption: Coordinated sampling
+  title: Estimate similarities from small samples
+  url: https://arxiv.org/abs/2309.16157
+- id: attention
+  paper: KDEformer
+  label: KDEformer
+  caption: Efficient attention
+  title: Approximate attention by sampling
+  url: https://proceedings.mlr.press/v202/zandieh23a.html

@@ -2,13 +2,18 @@
 layout: archive
 title: "Talks and presentations"
 permalink: /talks/
-author_profile: true
+author_profile: false
 ---
 
-{% include base_path %}
+<p><a href="{{ '/talkmap.html' | relative_url }}">See a map of all the places I've given a talk!</a></p>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-    
-{% for post in site.talks reversed %}
+<div class="talk-grid">
+{% assign dated_talks = site.talks | where_exp: 'talk', 'talk.undated != true' | sort: 'date' %}
+{% for post in dated_talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
+{% assign undated_talks = site.talks | where: 'undated', true %}
+{% for post in undated_talks %}
+  {% include archive-single-talk.html %}
+{% endfor %}
+</div>

@@ -1,0 +1,95 @@
+# Public professional profiles, matched to publication identities (September 2026).
+# Keep name spellings identical to publications.yml; aliases may share a URL.
+"Amir Kafshdar Goharshady": https://amir.goharshady.com/
+"Andreas Pavlogiannis": https://cs.au.dk/~pavlogiannis/
+"Aécio Santos": https://aeciosantos.com/
+"Christopher Musco": https://www.chrismusco.com/
+"Juliana Freire": https://engineering.nyu.edu/faculty/juliana-freire
+
+# Verified public academic/professional profiles, 2026-09-27.
+# Jihwan's homepage is on the same host as the supplied SVP project and names Insu Han as advisor.
+Jihwan Shin: https://jihwan1205.github.io/
+# Google Research's current profile; its personal-homepage link is explicitly labeled outdated.
+Vahab Mirrokni: https://research.google/people/mirrokni/
+# Scholar URL linked by his doctoral advisor: https://theory.epfl.ch/kapralov/ (Amir Zandieh, Google Zurich).
+# Scholar blocks automated reading with 403, but the exact profile URL is authoritatively linked.
+Amir Zandieh: https://scholar.google.com/citations?user=S9Ss8M8AAAAJ
+# Personal homepage lists QJL and KDEformer with Majid Daliri.
+Insu Han: https://insuhan.github.io/
+# Redirect destination of his former abehrouz.github.io homepage; lists ATLAS and Majid Daliri.
+Ali Behrouz: https://alibehrouz.com/
+# Personal USC-hosted page lists ATLAS and its complete coauthor list.
+Zeman Li: https://sites.google.com/usc.edu/zemanli/
+# Personal homepage identifies Google Algorithms and Optimization research, coauthors Vahab/Peilin.
+Praneeth Kacham: https://praneethkacham.com/
+# Personal page identifies Google NYC Algorithms, LLM pre-training and Zeman Li mentorship.
+Yuan Deng: https://sites.google.com/view/yuandeng/home
+# Personal Columbia-hosted page identifies Google NYC Algorithms, Vahab Mirrokni's team.
+Peilin Zhong: https://www.cs.columbia.edu/~peilin/
+# Explicit migration from https://sites.usc.edu/razaviyayn/ to this personal academic homepage.
+Meisam Razaviyayn: https://meisamr.github.io/
+# No academic homepage found. Public LinkedIn profile identifies Google DeepMind and references TurboQuant.
+Majid Hadian: https://www.linkedin.com/in/majid-hadian-96a123a7
+# Official Google Research profile https://research.google/people/106051/ links this personal site.
+Ananda Theertha Suresh: https://theertha.info/
+# Institutional profile identifies UT Austin PhD / IAS / Adobe; unlike another Zhao Song from Duke.
+Zhao Song: https://simons.berkeley.edu/people/zhao-song
+# Personal page lists Unlock the Theory behind Scaling 1-bit Neural Networks with Majid Daliri.
+Chiwun Yang: https://christianyang37.github.io/
+# Personal academic homepage identifies former Yale professor and current Stanford/Cisco roles.
+Amin Karbasi: https://aminkarbasi.github.io/
+
+# Verified 2026-09-27 against public primary sources and the paper affiliations.
+# Hamed's homepage identifies Penn State, the paper email, and his math-reasoning work.
+Hamed Mahdavi: https://hamedmahdavi72.github.io/
+# Personal homepage identifies Pouria and Penn State CS; official PSU course syllabus also links the matching email pmahdavi@psu.edu.
+Pouria Mahdavinia: https://pmahdavi.io/
+# Personal homepage explicitly lists Brains vs. Bytes and its author list, including Majid.
+Samira Malek: https://samiramalek.github.io/
+# Personal homepage identifies Penn State mathematics; institutional profile confirms pegahmp@psu.edu, matching the paper.
+# https://science.psu.edu/math/people/pmm5999
+Pegah Mohammadipour: https://pegah-mp.github.io/
+# Personal homepage explicitly lists Brains vs. Bytes; CUNY physics affiliation and paper email match.
+Alireza Hashemi: https://alirezahashemi.com/
+# Official Autodesk Research staff profile; exact name and Autodesk Toronto affiliation match the paper.
+Amir Khasahmadi: https://www.research.autodesk.com/people/amir-khasahmadi/
+# Personal homepage explicitly lists RefGrader; CMU affiliation matches the paper.
+Niloofar Mireshghallah: https://mireshghallah.github.io/
+# Current Penn State faculty homepage, containing the source paper PDFs.
+Vasant Honavar: https://faculty.ist.psu.edu/vhonavar/
+# Official Bocconi faculty profile: exact name and yekta.yazdanifard@unibocconi.it match Brains vs. Bytes.
+Yekta Yazdanifard: https://www.unibocconi.it/en/faculty/yekta-yazdanifard
+# Exact name and Amirkabir affiliation match CombiGraph-Vis; Pegah's public research post links this same profile as a commenter.
+# https://www.linkedin.com/posts/pegah-mohammadipour-a64080169_direct-analysis-of-zero-noise-extrapolation-activity-7302461873428320256-TRr-
+Pedram Mohammadipour: https://ir.linkedin.com/in/pedram-mohammadipour
+# Omitted: Alireza Farhadi (Amirkabir). The UMD/Adobe algorithms researcher is a different person.
+# OpenReview forum and public API currently require browser verification; no exact author profile obtained.
+# alphaXiv's unclaimed profile links a LinkedIn for an Isfahan University of Technology employee, so it is insufficient to disambiguate.
+
+# Public professional links checked 2026-09-27.
+# Mohammadreza: UMass theory group + personal homepage explicitly describes navigable-graph research.
+"Mohammadreza Daneshvaramoli": "https://moreda-a.github.io/"
+# Purna: personal academic page identifies UMass theory group and advisers Hung Le / Andrew McGregor.
+"Purna Dutta": "https://purnadutta.github.io/"
+"Edo Liberty": "https://edoliberty.com/"
+# Both names belong to the UMass researcher; homepage contains both name variants.
+"Cameron N. Musco": "https://people.cs.umass.edu/~cmusco/"
+"Cameron Musco": "https://people.cs.umass.edu/~cmusco/"
+"Torsten Suel": "https://research.engineering.nyu.edu/~suel/"
+# NYU VIDA profile explicitly links this personal homepage.
+"Grace Fan": "https://gracefan2020.github.io/"
+# Homepage explicitly lists MosaicJoin with Majid Daliri.
+"Eden Wu": "https://edenwuyifan.github.io/me/"
+# Homepage explicitly lists Matrix Product Sketching via Coordinated Sampling.
+"Danrong Li": "https://danrongli.github.io/"
+# Homepage explicitly lists all three relevant sampling papers with Majid.
+"Haoxiang Zhang": "https://haoxiangzhx.github.io/"
+# Chris Musco lists her as NYU postdoc / KNIME scientist. Personal domain alinebessa.com could not be fetched.
+"Aline Bessa": "https://www.linkedin.com/in/alinebessa"
+# UMD scholarly-papers list connects PLDI cache-placement paper to Ali and adviser Hajiaghayi.
+# Hajiaghayi's alumni list directly links this Scholar profile (fetch itself is rate-limited).
+"Ali Ahmadi": "https://scholar.google.com/citations?user=oAtNHc4AAAAJ"
+# Personal publications page includes pi/2-MST with Majid Daliri and Amir H. Moradpour.
+"Ahmad Biniaz": "https://cglab.ca/~biniaz/"
+# Unresolved: Gabriel M. Silva. Exact workshop entry has an OpenReview browser challenge, and no verified author profile was found.
+# Unresolved: AmirHossein Moradpour. Verified University of Tehran STACS author, but no professional profile was found; unrelated LinkedIn namesakes were rejected.
